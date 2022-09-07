@@ -46,9 +46,10 @@ case $opt in
 
 	 read -p"Ingrese su porción de red [Ej: 192.168.0]: " net
 	 echo
+	 
 	 for ip in $(seq 1 254); do
 
-	 #probar si hay algún host activo
+	 # Probar si hay algún host activo
 
 		ping -c 1 $net.$ip > /dev/null
 
