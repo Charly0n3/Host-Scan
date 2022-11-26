@@ -1,3 +1,2 @@
 # Host-Scan
-Pequeña herramienta escrita en bash para comprobar que IPs hay conectadas y desconectadas en nuestra red local.
-Si tienes problemas con el código de colores prueba a ejecutar el script con "sh".
+Small tool written in bash to check that IPs are connected and disconnected in our local network. If you have problems with the color code try running the script with "sh".
