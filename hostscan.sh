@@ -56,8 +56,9 @@ case $opt in
 		#comprueba la salida del ping anterior.
 
 		if [ $? -eq 0 ]; then
-
-			echo $net.$ip is '\e[32m UP \e[0m'
+			
+			date=$(date +%d/%m/%y)
+			echo $net.$ip is '\e[32m UP \e[0m' >> hostsup_log_$date.txt
 
 		else
 
