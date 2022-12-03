@@ -9,6 +9,8 @@ clear
 	echo '\e[31m [ERROR] \e[0m Debes ejecutar el script como root'
 	exit 1
  fi
+ 
+apt install toilet 2> /dev/null
 
 # banner
 echo
