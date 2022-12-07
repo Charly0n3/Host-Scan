@@ -1,5 +1,5 @@
 #!/bin/bash
-#Autor: Carlos Rubio
+#Autor: Ch4rly0n3
 #escanea la red local en búsqueda de host activos
 
 clear
